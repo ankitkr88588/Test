@@ -3,9 +3,9 @@ import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 import './App.css';
 
 // Components
-import Home from './components/Home';
-import RootFiles from './components/RootFiles';
-import StockRoms from './components/StockRoms';
+import Home from './Home';
+import RootFiles from './RootFiles';
+import StockRoms from './StockRoms';
 
 function App() {
   return (
