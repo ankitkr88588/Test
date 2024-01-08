@@ -1,14 +1,19 @@
 import React from 'react';
+import './DeviceDropdown.css'; // Import CSS for styling (create this file)
 
 class DeviceDropdown extends React.Component {
   render() {
     return (
-      <div>
-        <select>
-          <option value="infinix">Infinix</option>
-          <option value="tecno">Tecno</option>
-          <option value="itel">Itel</option>
-        </select>
+      <div className="container">
+        <h1>Welcome to Device Selector</h1>
+        <div className="dropdown">
+          <select className="dropdown-select">
+            <option value="select">Select a Device</option>
+            <option value="infinix">Infinix</option>
+            <option value="tecno">Tecno</option>
+            <option value="itel">Itel</option>
+          </select>
+        </div>
 
         {/* Insert the AdSense script */}
         <script
